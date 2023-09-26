@@ -9,6 +9,7 @@
         <title>Right to Repair</title>
     </head>
     <body>
+         <!-- header for the pages -->
         <div id="header">
             <h1>Right to Repair</h1>
             <table>
@@ -17,6 +18,7 @@
                         <h2><a href="index.html">Home</a></h2>
                     </td>
                     <td>
+                        <!-- style applied for selected tab only -->
                         <h2 id="selected"><a href="whyitmatters.html">Why it Matters</a></h2>
                     </td>
                     <td>
@@ -25,14 +27,22 @@
                 </tr>
             </table>
         </div>
+        <!-- some paragraphs with a header, but i do have one fancy thing up my sleeve -->
         <h3>Why does Right to Repair Matter right now?</h3>
         <p>Companies like Apple and John Deere have shown how terrible things can get when end users are denied the right to repair their own things because of lack of parts, or parts that are designed in a way to work with only one device.</p>
         <p>This is problematic for many reasons:</p>
         <ul>
-            <li>It's practically a monopoly on repair (as you're forced to go to the original manufacturer to get any repairs made on your device)</li>
-                <li>And they'll probably force you to pay an insane amount of money for the repair, which might not work for people who are cash strapped</li>
-            <li>Even if the manufacturer of the device decides to sell the replacement parts and provide services so that your new part works normally with the rest of the device, they'll still try to charge you a lot for it</li>
-                <li>Anyways, the gatekeeping part is really disgusting</li>
+            <li>It's practically a monopoly on repair (as you're forced to go to the original manufacturer to get any repairs made on your device)
+                <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul showed that it was possible to have tabbed lists, if i just nest uls-->
+                <ul>
+                    <li>And they'll probably force you to pay an insane amount of money for the repair, which might not work for people who are cash strapped</li>
+                </ul>
+            </li>
+            <li>Even if the manufacturer of the device decides to sell the replacement parts and provide services so that your new part works normally with the rest of the device, they'll still try to charge you a lot for it
+                <ul>
+                    <li>Anyways, the gatekeeping part is really disgusting</li>
+                </ul>
+            </li>
             <li>At some point, your device will break and companies will attempt to extort so much money out of you (if not with expensive repairs, then its with basically pushing you to get a new device when you break your old ones)</li>
             <li>It's really bad for electronics preservation when you need to fix a part on a damaged historical gadget but then you lose so much functionality as a result of that one repair.</li>
         </ul>
