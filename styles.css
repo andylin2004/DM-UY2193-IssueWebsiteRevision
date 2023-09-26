@@ -1,9 +1,23 @@
+/* this is for webpage control thingy */
 #header {
+    /* lock to top of page */
     position: sticky;
+    /* basically how far from the top to lock it at */
     top: 20px;
+    /* center align any text in header */
     text-align: center;
+    /* green yellow background color so that things don't look weird */
+    background-color: greenyellow;
+    border-radius: 10px;
 }
 
+/* this is for the selected tab i guess */
+#selected {
+    background-color: green;
+    color: greenyellow;
+}
+
+/* make sure that the table stretches all the way with even distribution */
 table {
     width: 100%;
     table-layout: fixed;
