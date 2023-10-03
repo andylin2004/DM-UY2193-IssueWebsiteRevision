@@ -38,9 +38,16 @@
 }
 
 .tripleframer img {
-    object-fit: cover;
     height: 30vh;
     width: 100%;
+}
+
+.cropdownimg {
+    object-fit: cover;
+}
+
+.showfullimg {
+    object-fit: scale-down;
 }
 
 /* this is for the selected tab i guess */
