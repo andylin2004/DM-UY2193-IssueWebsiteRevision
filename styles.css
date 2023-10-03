@@ -28,16 +28,25 @@
     padding-right: 20px;
 }
 
+.tripleframer {
+    display: flex;
+}
+
+.tripleframer > div {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.tripleframer img {
+    object-fit: cover;
+    height: 30vh;
+    width: 100%;
+}
+
 /* this is for the selected tab i guess */
 #selected {
     background-color: green;
     color: greenyellow;
-}
-
-/* make sure that the table stretches all the way with even distribution */
-table {
-    width: 100%;
-    table-layout: fixed;
 }
 
 body {
